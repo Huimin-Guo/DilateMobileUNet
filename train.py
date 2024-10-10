@@ -16,7 +16,7 @@ from datasets.dataset_Poly import prepare_my_data_poly
 from models.DilateMobileUnet import DilateMobileVitUnet
 from optimizers.lr_scheduler import LinearWarmupCosineAnnealingLR
 from setting import parse_opts
-from utils import map_color, show4tb, show4tb_2d
+from utils import map_color, show4tb_2d
 
 
 def valid_2d(sets, val_inputs, val_labels, post_pred, post_label, device, cpu_device):
